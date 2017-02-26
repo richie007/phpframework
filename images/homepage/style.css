@@ -1,0 +1,168 @@
+﻿body{
+	background-color:#EEE;
+	
+}
+a{
+	text-decoration:none;
+	color:red;
+}
+a:hover {
+	color: #02B1DD;
+}
+#container{
+	background-color:white;
+	width:800px;
+	margin-left:auto;
+	margin-right:auto;
+		
+}
+#header{
+	background-image:url('bar3.jpg');
+	color:red;
+	text-align:center;
+	font-size: 46px;
+	text-shadow: 4px 4px rgba(33,33,66,0.15);
+ 	padding: 0px;
+	padding-left: 20px;
+}
+h2{
+	background-image:url('../bottle2.jpg');
+	color:red;
+	text-align:center;
+	font-size: 46px;
+	text-shadow: 4px 4px rgba(33,33,66,0.15);
+ 	padding: 0px;
+	padding-left: 40px;
+
+	height:150;
+}
+#content{
+	padding:10px 10px 10px 10px;
+}
+#navcontainer{
+width:180px;
+float:left;
+}
+#main{
+	width:600px;
+	float:right;
+	font-style:italic;
+	font-weight:bold;
+	font-family:'arif ruquaa',serif;
+}
+#navlist{
+list-style-type:none;
+
+}
+.selected{
+	font-weight:bold;
+}
+#info{
+	font-family:'Molle', cursive;
+}
+#cocktailimage{
+	float:right;
+}
+#twolines{
+	font-style:italic;
+	font-weight:bold;
+	color:maroon;
+	
+
+}
+#menu{
+	float:right;
+}
+#gall{
+	font-family:"Bookman Old Style";
+	font-size:medium;
+	font-style:italic;
+	font-weight:bold;
+	text-decoration:underline;
+	color:maroon;
+}
+#map{
+	float:right;
+}
+#heading3{
+	font-family:"Courier New", Courier, monospace;
+	font-size:large;
+	font-weight:bold;
+	color:maroon;
+	text-decoration:underline;
+	text-align:center;
+	
+}
+.clearfloat { /* this class should be placed on a div or break element and should be the final element before the close of a container that should fully contain a float */
+	clear:both;
+    height:0;
+    font-size: 1px;
+    line-height: 0px;
+}
+/*MAIN MENU*/
+#navcontainer { 
+	width: 200px;
+	height:273px;
+	float:left;
+	background-color: #a9d459; 
+}
+#navcontainer ul {
+	margin-left: 0;
+	padding-left: 0;
+	list-style-type: none;
+	font-family: Arial, Helvetica, sans-serif;
+}
+#navcontainer a {
+	font-size:24px;
+	display: block;
+	padding: 10px;
+	width: 180px;
+	background-color: #a9d459;
+	border-bottom: 1px solid #eee;
+}
+#navcontainer a:link, #navlist a:visited {
+	color: #744730;
+	text-decoration: none;
+}
+#navcontainer a:hover {
+	background-color: #89bf23;
+	color: #fff;
+}
+#navcontainer #active a {
+	background-color: #89bf23;
+	color: #fff;
+}
+.main-content{
+
+	width: 650px;
+	/*background-color: #B0B0B0;*/
+	float:left;
+	/*jatko*/
+	padding: 30px;
+}
+
+p.next_to_img{
+	display:inline-block;
+	width: 300px;
+	vertical-align: top;
+	
+	
+	
+}
+.footer{
+	background-color: #585C70; /*rgb(132,140,153)*/
+	clear:both;
+	padding: 10px;
+	border-bottom-left-radius: inherit;
+    border-bottom-right-radius: inherit;
+}
+
+.footer p {
+	color: white;
+	font-size: 80%;
+	text-align: right;
+	font-family: 'Great Vibes', cursive;
+}
+
+
+
